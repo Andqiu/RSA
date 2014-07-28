@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		522BF9BA19757B9B001F658A /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 522BF9B819757B9B001F658A /* rsa_private_key.pem */; };
-		522BF9BB19757B9B001F658A /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 522BF9B919757B9B001F658A /* rsa_public_key.pem */; };
 		522BF9C019757BFE001F658A /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BF9BD19757BFE001F658A /* Base64.m */; };
 		522BF9C119757BFE001F658A /* CRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BF9BF19757BFE001F658A /* CRSA.m */; };
 		5281C6C5197528E8000FE2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5281C6C4197528E8000FE2F5 /* Foundation.framework */; };
@@ -25,7 +23,6 @@
 		5281C6E6197528E8000FE2F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5281C6C8197528E8000FE2F5 /* UIKit.framework */; };
 		5281C6EE197528E8000FE2F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5281C6EC197528E8000FE2F5 /* InfoPlist.strings */; };
 		5281C6F0197528E8000FE2F5 /* RSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281C6EF197528E8000FE2F5 /* RSATests.m */; };
-		5281C75819752CB2000FE2F5 /* buildIOSFramework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5281C75519752CB2000FE2F5 /* buildIOSFramework.sh */; };
 		5281C75919752CB2000FE2F5 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5281C75619752CB2000FE2F5 /* openssl.framework */; };
 		5281C75A19752CB2000FE2F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5281C75719752CB2000FE2F5 /* README.md */; };
 /* End PBXBuildFile section */
@@ -41,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		522BF9B819757B9B001F658A /* rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.pem; sourceTree = "<group>"; };
-		522BF9B919757B9B001F658A /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		522BF9BC19757BFE001F658A /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
 		522BF9BD19757BFE001F658A /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		522BF9BE19757BFE001F658A /* CRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSA.h; sourceTree = "<group>"; };
@@ -66,7 +61,6 @@
 		5281C6EB197528E8000FE2F5 /* RSATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSATests-Info.plist"; sourceTree = "<group>"; };
 		5281C6ED197528E8000FE2F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5281C6EF197528E8000FE2F5 /* RSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSATests.m; sourceTree = "<group>"; };
-		5281C75519752CB2000FE2F5 /* buildIOSFramework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buildIOSFramework.sh; sourceTree = "<group>"; };
 		5281C75619752CB2000FE2F5 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
 		5281C75719752CB2000FE2F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,9 +127,6 @@
 				522BF9BD19757BFE001F658A /* Base64.m */,
 				522BF9BE19757BFE001F658A /* CRSA.h */,
 				522BF9BF19757BFE001F658A /* CRSA.m */,
-				522BF9B819757B9B001F658A /* rsa_private_key.pem */,
-				522BF9B919757B9B001F658A /* rsa_public_key.pem */,
-				5281C75519752CB2000FE2F5 /* buildIOSFramework.sh */,
 				5281C75619752CB2000FE2F5 /* openssl.framework */,
 				5281C75719752CB2000FE2F5 /* README.md */,
 				5281C6D3197528E8000FE2F5 /* CMSAppDelegate.h */,
@@ -256,11 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5281C75A19752CB2000FE2F5 /* README.md in Resources */,
-				522BF9BA19757B9B001F658A /* rsa_private_key.pem in Resources */,
 				5281C6DD197528E8000FE2F5 /* Images.xcassets in Resources */,
 				5281C6CF197528E8000FE2F5 /* InfoPlist.strings in Resources */,
-				5281C75819752CB2000FE2F5 /* buildIOSFramework.sh in Resources */,
-				522BF9BB19757B9B001F658A /* rsa_public_key.pem in Resources */,
 				5281C6D8197528E8000FE2F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
